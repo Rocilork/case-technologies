@@ -17,7 +17,7 @@
         <Label Content="Преподаватель" HorizontalAlignment="Left" Margin="123,231,0,0" VerticalAlignment="Top"/>
         <ComboBox x:Name="comboBox" SelectedItem="{Binding Студенты}" DisplayMemberPath="ФИО_студента" HorizontalAlignment="Left" Margin="227,166,0,0" VerticalAlignment="Top" Width="120"/>
         <ComboBox x:Name="comboBox1" SelectedItem="{Binding Преподаватели}" DisplayMemberPath="ФИО_преподавателя" HorizontalAlignment="Left" Margin="227,235,0,0" VerticalAlignment="Top" Width="120"/>
-        <DatePicker x:Name="date" Text="{Binding Дата_сдачи}" HorizontalAlignment="Left" Margin="227,60,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="date" SelectedDate="{Binding Дата_сдачи}" HorizontalAlignment="Left" Margin="227,60,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="time" HorizontalAlignment="Left" Height="23" Margin="227,115,0,0" TextWrapping="Wrap" Text="{Binding Оценка}" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="com" HorizontalAlignment="Left" Height="23" Margin="491,231,0,0" TextWrapping="Wrap" Text="{Binding Рейтинг_КН}" VerticalAlignment="Top" Width="120"/>
         <Label Content="Рейтинг" HorizontalAlignment="Left" Margin="393,231,0,0" VerticalAlignment="Top"/>
